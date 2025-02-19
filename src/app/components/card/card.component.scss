@@ -1,0 +1,43 @@
+img{
+  width: 225px;
+  height: 225px;
+}
+#card-menu{
+  width: 270px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0 0 20px 0;
+  cursor: pointer;
+  &:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  &:hover #button-buy{
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.name{
+  text-align: center;
+  color: #A4A4A4;
+}
+.price{
+  text-align: center;
+}
+#button-buy{
+  display: flex;
+  font-size: 13px;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 40px;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  background-color: #BD0017;
+  visibility: hidden;
+  cursor: pointer;
+}
