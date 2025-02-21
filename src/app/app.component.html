@@ -1,13 +1,12 @@
 <div id="container">
-<div id="navbar"><app-nav></app-nav></div>
-<div id="img"><app-img></app-img></div>
-<p>Phần Ăn EVM</p>
-<div id="product-list">
-@for (menu of menus; track $index){
-<app-card [img]="menu.image" [name]="menu.name" [price]="menu.price"></app-card>
-}
- </div>
+  <div id="navbar"><app-nav></app-nav></div>
+
+  <div id="main-content">
+  <router-outlet></router-outlet>
+  </div>
   <footer>
     <app-below></app-below>
   </footer>
 </div>
+
+

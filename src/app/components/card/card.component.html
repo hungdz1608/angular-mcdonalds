@@ -6,7 +6,5 @@
     <p class="name">{{name}}</p>
     <p class="price">{{price}}</p>
   </div>
-  <div id="button-buy">
-    <p>XEM CHI TIẾT</p>
-  </div>
+  <div [routerLink]="['/menu-detail', id]" id="button-buy"><p>XEM CHI TIẾT</p></div>
 </div>

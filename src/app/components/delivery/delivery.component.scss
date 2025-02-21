@@ -1,0 +1,32 @@
+#delivery{
+  position: relative;
+  color: white;
+  img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  #delivery-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 35px;
+    left: 150px;
+  }
+  #btn{
+    padding: 15px 80px;
+    border-radius: 30px;
+    border: none;
+    color: #BD0017;
+    cursor: pointer;
+  }
+  #service{
+    width: 560px;
+  }
+  #mc{
+    margin: 0;
+    font-size: 35px;
+  }
+}

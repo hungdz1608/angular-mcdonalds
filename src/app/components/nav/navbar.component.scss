@@ -36,12 +36,13 @@
   p{
     margin: 0;
     padding: 0;
+
   }
   .small{
     font-size: 12px;
   }
   .big{
-    margin:3px 0 0 0 ;
+    margin:-4px 0 0 0 ;
     color: #FFBC0D;
   }
 }
@@ -49,6 +50,8 @@
   margin: 0 0 0 10px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
 }
 .title{
@@ -59,5 +62,59 @@
 }
 .title-hover{
   cursor: pointer;
+}
+.discount{
+  cursor: pointer;
+  &:hover{
+    color: #F3A22F;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+.news{
+  cursor: pointer;
+  &:hover{
+    color: #F3A22F;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+.contact{
+  cursor: pointer;
+  &:hover{
+    color: #F3A22F;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+.menu{
+  cursor: pointer;
+  &:hover{
+    color: #F3A22F;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.active-link {
   color: #F3A22F;
 }
+#shopping{
+  //margin: 0 0 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  &:hover{
+    height: 40px;
+    width: 40px;
+    background-color: #F3A22F;
+    border-radius: 20px
+  }
+}
+

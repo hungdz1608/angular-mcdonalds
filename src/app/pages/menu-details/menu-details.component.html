@@ -1,0 +1,7 @@
+<div class="menu-details">
+  <img src="{{currentId?.image}}" alt="Sample Menu Item" class="menu-image">
+  <h1 class="menu-name">{{currentId?.name}}</h1>
+  <p class="menu-about">{{currentId?.about}}</p>
+  <p class="menu-price">{{currentId?.price}}</p>
+  <button (click)="cartService.addToCart(currentId)" class="add-to-cart-button">Add to Cart</button>
+</div>

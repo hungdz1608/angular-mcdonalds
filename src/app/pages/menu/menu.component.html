@@ -1,0 +1,7 @@
+<div><app-img></app-img></div>
+<p>Phần Ăn EVM</p>
+<div id="product-list">
+  @for (menu of menus; track $index){
+    <app-card [img]="menu.image" [name]="menu.name" [price]="menu.price" [id]="menu.id"></app-card>
+  }
+</div>
