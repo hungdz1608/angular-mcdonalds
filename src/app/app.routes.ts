@@ -1,7 +1,6 @@
 import { Routes } from '@angular/router';
 import {HomeComponent} from './pages/home/home.component';
 import {MenuComponent} from './pages/menu/menu.component';
-import {CartComponent} from './pages/cart/cart.component';
 import {PromotionComponent} from './pages/promotion/promotion.component';
 import {NewsComponent} from './pages/news/news.component';
 import {MenuDetailsComponent} from './pages/menu-details/menu-details.component';
@@ -17,10 +16,6 @@ routes = [
   {
     path: 'menu',
     component: MenuComponent,
-  },
-  {
-    path: 'cart',
-    component: CartComponent,
   },
   {
     path: 'promotion',
